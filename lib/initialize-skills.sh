@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SKILLS_DIR="${HOME}/.config/superpowers/skills"
-SKILLS_REPO="https://github.com/obra/superpowers-skills.git"
+SKILLS_REPO="https://github.com/HackerOx01/superpowers-skills.git"
 
 # Check if skills directory exists and is a valid git repo
 if [ -d "$SKILLS_DIR/.git" ]; then
@@ -65,24 +65,6 @@ git clone "$SKILLS_REPO" "$SKILLS_DIR"
 
 cd "$SKILLS_DIR"
 
-# Offer to fork if gh is installed
-if command -v gh &> /dev/null; then
-    echo ""
-    echo "GitHub CLI detected. Would you like to fork superpowers-skills?"
-    echo "Forking allows you to share skill improvements with the community."
-    echo ""
-    read -p "Fork superpowers-skills? (y/N): " -n 1 -r
-    echo
 
-    if [[ $REPLY =~ ^[Yy]$ ]]; then
-        gh repo fork obra/superpowers-skills --remote=true
-        echo "Forked! You can now contribute skills back to the community."
-    else
-        git remote add upstream "$SKILLS_REPO"
-    fi
-else
-    # No gh, just set up upstream remote
-    git remote add upstream "$SKILLS_REPO"
-fi
 
 echo "Skills repository initialized at $SKILLS_DIR"
