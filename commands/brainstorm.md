@@ -2,4 +2,4 @@
 description: Interactive design refinement using Socratic method
 ---
 
-Read and follow: ${SUPERPOWERS_SKILLS_ROOT}/skills/collaboration/brainstorming/SKILL.md
+Use and follow the brainstorming skill exactly as written
