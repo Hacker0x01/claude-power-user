@@ -1,6 +1,6 @@
-# Superpowers
+# Claude Power User
 
-Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.
+Become a claude power user with a comprehensive skills library of proven techniques, patterns, and workflows.
 
 ## What You Get
 
@@ -11,7 +11,7 @@ Give Claude Code superpowers with a comprehensive skills library of proven techn
 - **Meta Skills** - Creating, testing, and sharing skills
 
 Plus:
-- **Slash Commands** - `/superpowers:brainstorm`, `/superpowers:write-plan`, `/superpowers:execute-plan`
+- **Slash Commands** - `/poweruser:brainstorm`, `/poweruser:write-plan`, `/poweruser:execute-plan`
 - **Automatic Integration** - Skills activate automatically when relevant
 - **Consistent Workflows** - Systematic approaches to common engineering tasks
 
@@ -36,9 +36,9 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 /help
 
 # Should see:
-# /superpowers:brainstorm - Interactive design refinement
-# /superpowers:write-plan - Create implementation plan
-# /superpowers:execute-plan - Execute plan in batches
+# /poweruser:brainstorm - Interactive design refinement
+# /poweruser:write-plan - Create implementation plan
+# /poweruser:execute-plan - Execute plan in batches
 ```
 
 ## Quick Start
@@ -47,17 +47,17 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 
 **Brainstorm a design:**
 ```
-/superpowers:brainstorm
+/poweruser:brainstorm
 ```
 
 **Create an implementation plan:**
 ```
-/superpowers:write-plan
+/poweruser:write-plan
 ```
 
 **Execute the plan:**
 ```
-/superpowers:execute-plan
+/poweruser:execute-plan
 ```
 
 ### Automatic Skill Activation
@@ -97,7 +97,7 @@ Skills activate automatically when relevant. For example:
 - **writing-skills** - Create new skills following best practices
 - **sharing-skills** - Contribute skills back via branch and PR
 - **testing-skills-with-subagents** - Validate skill quality
-- **using-superpowers** - Introduction to the skills system
+- **using-poweruser-skills** - Introduction to the skills system
 
 ### Commands
 
@@ -109,7 +109,7 @@ All commands are thin wrappers that activate the corresponding skill:
 
 ## How It Works
 
-1. **SessionStart Hook** - Loads the `using-superpowers` skill at session start
+1. **SessionStart Hook** - Loads the `using-poweruser` skill at session start
 2. **Skills System** - Uses Claude Code's first-party skills system
 3. **Automatic Discovery** - Claude finds and uses relevant skills for your task
 4. **Mandatory Workflows** - When a skill exists for your task, using it becomes required
@@ -139,7 +139,7 @@ See `skills/meta/writing-skills/SKILL.md` for the complete guide.
 Skills update automatically when you update the plugin:
 
 ```bash
-/plugin update superpowers
+/plugin update poweruser
 ```
 
 ## License
