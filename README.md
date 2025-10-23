@@ -1,6 +1,8 @@
-# Superpowers
+# Claude Power User
 
 Give Claude Code superpowers with a comprehensive skills library of proven techniques, patterns, and workflows.
+
+Based on [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent.
 
 ## What You Get
 
@@ -11,7 +13,7 @@ Give Claude Code superpowers with a comprehensive skills library of proven techn
 - **Meta Skills** - Creating, testing, and sharing skills
 
 Plus:
-- **Slash Commands** - `/superpowers:brainstorm`, `/superpowers:write-plan`, `/superpowers:execute-plan`
+- **Slash Commands** - `/poweruser:brainstorm`, `/poweruser:write-plan`, `/poweruser:execute-plan`
 - **Automatic Integration** - Skills activate automatically when relevant
 - **Consistent Workflows** - Systematic approaches to common engineering tasks
 
@@ -25,8 +27,8 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 
 ```bash
 # In Claude Code
-/plugin marketplace add obra/superpowers-marketplace
-/plugin install superpowers@superpowers-marketplace
+/plugin marketplace add Hacker0x01/claude-power-user
+/plugin install claude-power-user@claude-power-user
 ```
 
 ### Verify Installation
@@ -36,9 +38,9 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 /help
 
 # Should see:
-# /superpowers:brainstorm - Interactive design refinement
-# /superpowers:write-plan - Create implementation plan
-# /superpowers:execute-plan - Execute plan in batches
+# /poweruser:brainstorm - Interactive design refinement
+# /poweruser:write-plan - Create implementation plan
+# /poweruser:execute-plan - Execute plan in batches
 ```
 
 ## Quick Start
@@ -47,17 +49,17 @@ Read the introduction: [Superpowers for Claude Code](https://blog.fsck.com/2025/
 
 **Brainstorm a design:**
 ```
-/superpowers:brainstorm
+/poweruser:brainstorm
 ```
 
 **Create an implementation plan:**
 ```
-/superpowers:write-plan
+/poweruser:write-plan
 ```
 
 **Execute the plan:**
 ```
-/superpowers:execute-plan
+/poweruser:execute-plan
 ```
 
 ### Automatic Skill Activation
@@ -139,7 +141,7 @@ See `skills/meta/writing-skills/SKILL.md` for the complete guide.
 Skills update automatically when you update the plugin:
 
 ```bash
-/plugin update superpowers
+/plugin update claude-power-user
 ```
 
 ## License
@@ -148,5 +150,5 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues**: https://github.com/obra/superpowers/issues
-- **Marketplace**: https://github.com/obra/superpowers-marketplace
+- **Issues**: https://github.com/Hacker0x01/claude-power-user/issues
+- **Original Superpowers**: https://github.com/obra/superpowers (by Jesse Vincent)
