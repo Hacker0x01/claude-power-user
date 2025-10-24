@@ -1,5 +1,20 @@
 # Superpowers Release Notes
 
+## v3.2.3 (2025-10-23)
+
+### Improvements
+
+**Updated using-superpowers skill to use Skill tool instead of Read tool**
+- Changed skill invocation instructions from Read tool to Skill tool
+- Updated description: "using Read tool" → "using Skill tool"
+- Updated step 3: "Use the Read tool" → "Use the Skill tool to read and run"
+- Updated rationalization list: "Read the current version" → "Run the current version"
+
+The Skill tool is the proper mechanism for invoking skills in Claude Code. This update corrects the bootstrap instructions to guide agents toward the correct tool.
+
+### Files Changed
+- Updated: `skills/using-superpowers/SKILL.md` - Changed tool references from Read to Skill
+
 ## v3.2.2 (2025-10-21)
 
 ### Improvements
