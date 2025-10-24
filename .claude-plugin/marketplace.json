@@ -2,8 +2,8 @@
   "name": "claude-power-user",
   "description": "Development marketplace for Claude Power User core skills library. Based on Superpowers by Jesse Vincent.",
   "owner": {
-    "name": "Mike Caughman",
-    "email": "mike@caughman.com"
+    "name": "HackerOne",
+    "email": "mcaughman@hackerone.com"
   },
   "plugins": [
     {
