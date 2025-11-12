@@ -1,5 +1,17 @@
 # Superpowers Release Notes
 
+## v3.4.1 (2025-10-31)
+
+### Improvements
+
+- Optimized superpowers bootstrap to eliminate redundant skill execution. The `using-superpowers` skill content is now provided directly in session context, with clear guidance to use the Skill tool only for other skills. This reduces overhead and prevents the confusing loop where agents would execute `using-superpowers` manually despite already having the content from session start.
+
+## v3.4.0 (2025-10-30)
+
+### Improvements
+
+- Simplified `brainstorming` skill to return to original conversational vision. Removed heavyweight 6-phase process with formal checklists in favor of natural dialogue: ask questions one at a time, then present design in 200-300 word sections with validation. Keeps documentation and implementation handoff features.
+
 ## v3.3.1 (2025-10-28)
 
 ### Improvements
